@@ -5,7 +5,11 @@
   text-align: center;
 }
 body {
-  background-color: #56657b;
+  background: radial-gradient(
+    circle,
+    hsl(235, 35%, 25%) 0%,
+    hsl(235, 25%, 15%) 100%
+  );
 }
 .custom-scroll::-webkit-scrollbar {
   width: 4px;             
